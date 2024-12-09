@@ -1,0 +1,729 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alegreya';
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.com-btn {
+    width: 30rem;
+    background-color: red;
+    padding: 1rem 6rem;
+    display: inline-block;
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+.main-title {
+    color: red;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.sub-title{
+    color: white;
+    font-size: 8.4rem;
+    margin-top: 1.8rem;
+    margin-bottom: 10.5rem;
+    max-width: 100%;
+    /* text-transform: uppercase; */
+    text-align: center;
+}
+
+
+
+/* ************header************ */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.nav-item {
+    font-size: 2rem;
+}
+
+/* ********************************* */
+
+/* *****************hero**************** */
+
+#hero {
+    width: 100%;
+    height: 103rem;
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+    position: relative;
+}
+
+#hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../image/hero-bennr.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 103rem;
+    opacity: 0.9;
+}
+
+.hero-deta {
+    padding-top: 32rem;
+    text-align: center;
+}
+
+#hero h1 {
+    color: white;
+    margin-bottom: 5.5rem;
+    font-size: 10rem;
+}
+
+#hero span {
+    color: red;
+}
+
+#hero p {
+    color: white;
+    margin-bottom: 5.5rem;
+    font-size: 1.7rem;
+}
+
+#hero .com-btn {
+    display: inline-block;
+}
+
+
+
+/* ********************************* */
+
+/* *****************about**************** */
+
+#about {
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+    padding-top: 20rem;
+}
+
+.about-wark .main-title{
+    text-align: left;
+}
+
+.about-wark .sub-title{
+    text-align:left;
+}
+
+.about-deta {
+    justify-content: space-around;
+    text-align: center;
+    row-gap: 3rem;
+}
+
+.about-deta img {
+    width: 15rem;
+    height: 15rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.about-deta h3 {
+    color: white;
+    font-size: 5rem;
+}
+
+.about-details {
+    padding-top: 20rem;
+}
+
+.about-img img {
+    width: 100%;
+    padding-right: 11.5rem;
+    border-right: 2px solid white;
+}
+
+.about-img p {
+    color: white;
+    font-size: 1.8rem;
+    /* max-width: 54.1rem; */
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.about-wark {
+    padding-left: 11.5rem;
+}
+
+
+/* ********************************* */
+
+
+/* ****************SUPER***************** */
+
+#SUPER {
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+    padding-top: 20rem;
+}
+
+.SUPER-deta h3 {
+    font-size: 13rem;
+    color: white;
+}
+
+.SUPER-deta p {
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 10rem;
+    /* max-width: 54.1rem; */
+}
+
+.SUPER-img {
+    margin-left: 8.7rem;
+}
+
+.SUPER-img img {
+    width: 100%;
+    height: 26.6rem;
+}
+
+.TEAM h3 {
+    margin-top: 12rem;
+    font-size: 10rem;
+}
+
+/* ********************************* */
+
+/* ***************SERVICES****************** */
+#SERVICES {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+#SERVICES .sub-title{
+    font-size: 9.4rem;
+}
+
+.SERVICES-deta {
+    justify-content: space-around;
+    padding-top: 10rem;
+    row-gap: 12.5rem;
+}
+
+.SERVICES-deta h2 {
+    color: white;
+    font-size: 4.4rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.SERVICES-deta p {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.SERVICES-img {
+    padding: 4rem;
+    border: 2px solid white;
+}
+
+.SERVICES-img img {
+    width: 100%;
+    height: 31rem;
+}
+
+
+/* ************************************ */
+
+/* *****************WHY******************* */
+#WHY {
+    padding-top: 20rem;
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+.WHY-deta {
+    margin-top: 18rem;
+}
+
+.WHY-img {
+    padding: 1rem;
+}
+
+.WHY-img img {
+    margin: 0 auto;
+}
+
+.WHY-img h3 {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.WHY-img p {
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+}
+
+
+/* ************************************ */
+
+
+
+/* ****************Horoscope******************** */
+
+#Horoscope {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+.Horoscope-deta {
+    padding: 10rem 0;
+    margin-top: 10rem;
+    row-gap: 5rem;
+}
+
+.Horoscope-wark {
+    justify-content: flex-end;
+    row-gap: 5rem;
+    margin-top: 5rem;
+}
+
+.Horoscope-img {
+    display: flex;
+    justify-content: center;
+}
+
+.Horoscope-img img {
+    width: 10.8rem;
+    height: 10.8rem;
+    padding-right: 3rem;
+}
+
+.Horoscope-img h3 {
+    font-size: 5rem;
+    color: white;
+    margin: 0 2rem;
+}
+
+.Horoscope-img p {
+    color: white;
+    font-size: 1.8rem;
+    margin: 0 2rem;
+}
+
+.text-center{
+    margin-top: 11rem;
+}
+
+
+
+/* ************************************ */
+
+
+
+/* ***************price********************* */
+#price {
+    padding-top: 20rem;
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+.price-deta h2 {
+    color: red;
+    font-size: 3.2rem;
+}
+
+.price-deta h3 {
+    color: white;
+    font-size: 10rem;
+}
+
+.price-wark {
+    justify-content: space-between;
+    text-align: center;
+    row-gap: 5rem;
+}
+
+/* ************************************ */
+
+/* ****************Appointment******************** */
+
+#Appointment {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+.main-deta .main-title{
+    text-align:left;
+}
+
+.main-deta .sub-title{
+    text-align: left;
+}
+
+.T-form h3 {
+    color: white;
+    font-size: 3.2rem;
+    margin-bottom: 3rem;
+}
+
+.TEAM-form input {
+    background: none;
+    border: 2px solid white;
+    font-size: 2.4rem;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-bottom: 8.8rem;
+}
+
+.TEAM-form {
+    display: flex;
+}
+
+.T-form {
+    width: 100%;
+    padding-left: 5.1rem;
+}
+
+.TEAM-form .com-btn {
+    margin-bottom: 20rem;
+    font-size: 2.4rem;
+    width: 30rem;
+    text-align: center;
+
+}
+
+/* ************************************ */
+
+/* ******************BECOME****************** */
+#BECOME {
+    width: 100%;
+    height:490px;
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+    position: relative;
+    padding-top: 10rem;
+}
+
+#BECOME::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../image/Group.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height:490px ;
+    opacity: 0.3;
+}
+
+#BECOME h2 {
+    color: white;
+    margin-bottom: 5.5rem;
+    font-size: 7rem;
+}
+
+.BECOME-deta {
+    text-align: center;
+    margin: auto;
+}
+
+#BECOME p {
+    color: white;
+    font-size: 1.8rem;
+    margin: 4rem auto;
+    max-width: 89rem;
+}
+
+#BECOME .com-btn {
+    display: inline-block;
+    position: relative;
+}
+
+/* ************************************ */
+
+
+
+/* *****************Membership******************* */
+
+#Membership {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+.Membership-deta {
+    padding-top: 7.7rem;
+    justify-content: center;
+    row-gap: 11rem;
+}
+
+.ship {
+    display: flex;
+}
+
+.Membership-wark {
+    color: white;
+    border: 2px solid white;
+    padding: 4.7rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Membership-wark h3 {
+    font-size: 2.4rem;
+    color: white;
+}
+
+.Membership-wark h4 b {
+    font-size: 7.2rem;
+    color: white;
+}
+
+.Membership-wark h4 {
+    font-size: 2.4rem;
+    color: white;
+    text-align: left;
+}
+
+.Membership-wark span {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.Membership-icon {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.Membership-wark .com-btn {
+    margin-top: 8.0rem;
+    font-size: 2.2rem;
+}
+
+.Membership-wark a:hover {
+    color: white;
+    border: none;
+}
+
+.Membership-wark:hover {
+    background-color: red;
+
+}
+
+.Membership-wark:hover .com-btn {
+    color: red;
+    font-weight: bold;
+    background-color: white;
+}
+
+
+/* ************************************ */
+
+/* *****************OUR******************* */
+#OUR {
+    padding-top: 20rem;
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+#OUR .sub-title {
+    font-size: 12.5rem;
+    max-width: 100%;
+}
+
+.Arrow {
+    margin: 0 auto;
+}
+
+.swiper-wrapper {
+    margin-top: 10rem;
+}
+
+.mySwiper {
+    margin-top: 15.0rem;
+}
+
+.OUR-deta {
+    position: relative;
+    margin: 0 15rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.OUR-deta p {
+    text-align: start;
+    padding-top: 12.4rem;
+    max-width: 46.5rem;
+    font-size: 1.8rem;
+    color: white;
+    padding-left: 1.7rem;
+    margin-top: 2rem;
+}
+
+.OUR-deta img {
+    padding-top: 7.7rem;
+    height: 52rem;
+    /* object-fit: cover; */
+    object-position: top center;
+}
+
+.OUR-deta h3 {
+    text-align: start;
+    font-size: 2.4rem;
+    margin-top: 1rem;
+    color: white;
+    padding-left: 1.7rem;
+}
+
+.swiper-button-next {
+    color: white;
+}
+
+.swiper-button-prev {
+    color: white;
+}
+
+.productswiper .swiper-button-next::after,
+.productswiper .swiper-button-prev::after {
+    font-size: 50px;
+    color: white;
+}
+
+.OUR-deta::before {
+    background-image: url(../image/our.png);
+    content: '';
+    width: 9.8rem;
+    height: 8.5rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+}
+
+/* ************************************ */
+
+/* *****************BLOG******************* */
+#BLOG {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+.BLOG-wark {
+    margin-top: 8rem;
+    row-gap: 4rem;
+}
+
+.BLOG-deta img {
+    height: 40.5rem;
+    width: 100%;
+}
+
+.BLOG-deta {
+    padding: 0 1rem;
+}
+
+.BLOG-deta h3 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    margin-top: 5rem;
+}
+
+.BLOG-deta p {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.BLOG-deta a {
+    color: blue;
+}
+
+/* ************************************ */
+
+/* *****************footer******************* */
+
+footer {
+    padding-top: 20rem ;
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+footer .container {
+    border-top: 0.2rem solid white;
+    border-bottom: 0.1rem solid white;
+}
+
+.BOODOO {
+    justify-content: space-between;
+    margin-top: 8rem;
+}
+
+.BOODOO-deta ul {
+    padding: 0;
+    display: inline-block;
+}
+
+.BOODOO-deta p {
+    font-size: 1.8rem;
+    color: white;
+    margin: 1rem 0;
+}
+
+.BOODOO-deta h2 {
+    font-size: 3.2rem;
+    margin-top: 1rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.BOODOO i {
+    color: white;
+    font-size: 1.7rem;
+}
+
+.BOODOO-deta ul li {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.BOODOO-deta ul li a i{
+  color: #ffffff;
+  padding-right: 1rem;
+
+}
+
+.BOODOO-deta ul li a{
+    align-items: center;
+    display: flex;
+}
+
+.COPY {
+    font-size: 1.8rem;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* ************************************ */

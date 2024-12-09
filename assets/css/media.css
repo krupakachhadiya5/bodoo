@@ -1,0 +1,1106 @@
+/* 321-576 x-sm 1rem=7px*/
+
+
+@media screen and (max-width: 575px) {
+
+    html {
+        font-size: 43.75%;
+    }
+
+    .about-deta h3 {
+        font-size: 4rem;
+    }
+
+    .about-img img {
+        border-right: none;
+        padding-right: 0rem;
+    }
+
+    .about-wark {
+        padding-left: 0rem;
+        text-align: center;
+    }
+
+    .TEAM {
+        padding-left: 0;
+    }
+
+    .SUPER-img {
+        margin-left: 0;
+    }
+
+    .SUPER-img img {
+        width: 100%;
+        height: 60rem;
+    }
+
+    .Horoscope-deta {
+        padding: 0;
+    }
+
+    .T-form {
+        padding-left: 0rem;
+        text-align:center;
+    }
+
+    .TEAM-form input {
+        padding: 1rem 2rem 1rem 2rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    #BECOME {
+        height: 457px;
+    }
+
+    #BECOME::before {
+        height: 457px;
+    }
+
+    .Membership-wark {
+        padding: 1.2rem;
+    }
+
+    .Membership-wark {
+        padding: 4.7rem;
+    }
+
+    .Membership-wark span {
+        font-size: 2.5rem;
+    }
+
+    .Membership-wark h4 {
+        font-size: 6.4rem;
+    }
+
+    .Membership-wark h3 {
+        font-size: 3.4rem;
+    }
+
+    .Membership-wark .com-btn {
+        font-size: 2.2rem;
+        margin: auto;
+        margin-top: 6rem;
+    }
+
+    .OUR-deta::before {
+        width: 10.8rem;
+        height: 9rem;
+        bottom: 11rem;
+    }
+
+    .OUR-deta {
+        margin: 0 9rem;
+    }
+
+    .BOODOO img {
+        margin: 0 auto;
+    }
+
+    .BOODOO-deta p {
+        margin: 0 13rem;
+    }
+
+    .BOODOO {
+        text-align: center;
+    }
+
+    #hero h1 {
+        font-size: 5rem;
+    }
+
+    .sub-title {
+        font-size: 5.5rem !important;
+    }
+
+    .main-title {
+        font-size: 6rem !important;
+    }
+
+    .SUPER-deta h3 {
+        font-size: 10rem;
+    }
+
+    .SERVICES-deta {
+        padding: 0rem 1rem 0 1rem;
+    }
+
+    #about{
+        padding-top: 8rem;
+    }
+
+    .about-details {
+        padding-top: 8rem;
+    }
+
+    #SUPER {
+        padding-top: 8rem;
+    }
+
+    #SERVICES {
+        padding-top:8rem;
+    }
+
+    #WHY{
+        padding-top: 8rem;
+    }
+
+    #Horoscope{
+        padding-top: 8rem;
+    }
+
+    #price{
+        padding-top: 8rem;
+    }
+
+    #Appointment{
+        padding-top: 8rem;
+    }
+
+    #Membership{
+        padding-top: 8rem;
+    }
+
+    #OUR{
+        padding-top: 8rem;
+    }
+
+    #BLOG{
+        padding-top: 8rem;
+    }
+
+    footer{
+        padding-top: 8rem ;
+    }
+
+    .about-wark{
+        padding-top: 8rem;
+    }
+
+    .WHY-deta {
+        margin-top: 0rem;
+    }
+
+    .Membership-deta {
+        padding-top: 0;
+    }
+
+
+    .about-wark .sub-title {
+        text-align: center;
+    }
+
+    .about-wark .main-title {
+        text-align: center;
+    }
+
+    .SUPER-deta h3 {
+        text-align: center;
+    }
+
+    .SUPER-deta p {
+        text-align: center;
+    }
+
+    .SERVICES-deta {
+        row-gap: 7.5rem;
+    }
+
+    .main-deta .sub-title {
+        text-align: center;
+    }
+
+    .main-deta .main-title {
+        text-align: center;
+    }
+
+    .BLOG-deta h3 {
+        text-align: center;
+    }
+
+    .BLOG-deta p {
+        text-align: center;
+    }
+
+    .Membership-icon {
+        height: 6rem;
+    }
+
+    .productswiper .swiper-button-next::after,
+    .productswiper .swiper-button-prev::after {
+        font-size: 40px;
+    }
+
+    .Arrow {
+        height: 30rem;
+     }
+
+     .about-deta img {
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .about-deta h3 {
+        font-size: 4.4rem;
+    }
+
+    .WHY-img img {
+        height: 15rem;
+    }
+ 
+
+}
+
+/* 0-320 1rem=7px*/
+@media screen and (max-width: 320px) {
+
+    .swiper-wrapper {
+        margin-top: 10rem;
+    }
+
+    .OUR-deta::before {
+        bottom: 19rem;
+    }
+
+    .OUR-deta {
+        margin: 0 10rem;
+    }
+
+    #hero h1 {
+        font-size: 5rem;
+    }
+
+}
+
+
+/* 576-767 sm 1rem=7px*/
+@media screen and (min-width: 576px) {
+
+    html {
+        font-size: 43.75%;
+    }
+
+    .about-deta h3 {
+        font-size: 4rem;
+    }
+
+    .about-img img {
+        border-right: none;
+        padding-right: 0rem;
+    }
+
+    .about-wark {
+        padding-left: 0rem;
+        text-align: center;
+    }
+
+    .TEAM {
+        padding-left: 0;
+    }
+
+    .SUPER-img {
+        margin-left: 0;
+    }
+
+    .SUPER-img img {
+        width: 100%;
+        height: 50rem;
+    }
+
+    .Horoscope-deta {
+        padding: 0;
+    }
+
+    .T-form {
+        padding-left: 0rem;
+    }
+
+    .SERVICES-deta {
+        row-gap: 7.5rem;
+    }
+
+    .TEAM-form input {
+        padding: 1rem 2rem 1rem 2rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    #BECOME {
+        height: 400px;
+    }
+
+    #BECOME::before {
+        height: 400px;
+    }
+
+    .Membership-wark {
+        padding: 10.7rem;
+    }
+
+    .Membership-wark span {
+        font-size: 2.5rem;
+    }
+
+    .Membership-wark h4 {
+        font-size: 6.4rem;
+    }
+
+    .Membership-wark h3 {
+        font-size: 3.4rem;
+    }
+
+    .Membership-wark .com-btn {
+        font-size: 2.2rem;
+        margin: auto;
+        margin-top: 6rem;
+    }
+
+    .OUR-deta::before {
+        width: 12.8rem;
+        height: 10rem;
+        bottom: 21rem;
+    }
+
+
+    .OUR-deta {
+        margin: 0 25rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hero h1 {
+        font-size: 9rem;
+    }
+
+    #about {
+        padding-top: 10rem;
+    }
+
+    .about-details {
+        padding-top: 10rem;
+    }
+
+    #SUPER {
+        padding-top: 10rem;
+    }
+
+    #SERVICES {
+        padding-top:10rem;
+    }
+
+    #WHY{
+        padding-top: 10rem;
+    }
+
+    #Horoscope, #price{
+        padding-top: 10rem;
+    }
+
+    #price{
+        padding-top: 10rem;
+    }
+
+    #Appointment{
+        padding-top: 10rem;
+    }
+
+    #Membership{
+        padding-top: 10rem;
+    }
+
+    #OUR{
+        padding-top: 10rem;
+    }
+
+    #BLOG{
+        padding-top: 10rem;
+    }
+
+    footer{
+        padding-top: 10rem;
+    }
+
+    .about-wark{
+        padding-top: 10rem;
+    }
+
+    .WHY-deta {
+        margin-top: 0rem;
+    }
+
+    .Membership-deta {
+        padding-top: 0;
+    }
+
+
+
+
+    .about-wark .sub-title {
+        text-align: center;
+    }
+
+    .about-wark .main-title {
+        text-align: center;
+    }
+
+    .SUPER-deta h3 {
+        text-align: center;
+    }
+
+    .SUPER-deta p {
+        text-align: center;
+    }
+
+    .main-deta .sub-title {
+        text-align: center;
+    }
+
+    .main-deta .main-title {
+        text-align: center;
+    }
+
+    .BLOG-deta h3 {
+        text-align: center;
+    }
+
+    .BLOG-deta p {
+        text-align: center;
+    }
+
+    .productswiper .swiper-button-next::after,
+    .productswiper .swiper-button-prev::after {
+        font-size: 40px;
+    }
+
+    .Arrow {
+        height: 27rem;
+     }
+
+     .about-deta img {
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .about-deta h3 {
+        font-size: 4.4rem;
+    }
+
+    .WHY-img img {
+        height: 17rem;
+    }
+
+    .T-form {
+        padding-left: 0rem;
+        text-align:center;
+    }
+ 
+
+
+}
+
+/* 768-991 md 1rem=8px*/
+@media screen and (min-width: 768px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .about-deta h3 {
+        font-size: 4rem;
+    }
+
+    .TEAM {
+        padding-left: 0;
+    }
+
+
+    .SUPER-img {
+        margin-left: 0;
+    }
+
+    .TEAM-form input {
+        padding: 1rem 2rem 1rem 2rem;
+    }
+
+    .T-form {
+        padding-left: 0rem;
+    }
+
+    .Membership-wark {
+        padding: 1.7rem;
+    }
+
+    .Membership-deta {
+        row-gap: 4rem;
+    }
+
+    .Membership-wark {
+        padding: 1.7rem;
+    }
+
+    .Membership-wark span {
+        font-size: 1.5rem;
+    }
+
+    .Membership-wark h4 {
+        font-size: 2.4rem;
+    }
+
+    .Membership-wark h3 {
+        font-size: 2.4rem;
+    }
+
+    .OUR-deta::before {
+        width: 11.8rem;
+        height: 10.5rem;
+        bottom: 17rem;
+    }
+
+    .OUR-deta {
+        margin: 0 30rem;
+    }
+
+    #BECOME {
+        height: 430px;
+    }
+
+    #BECOME::before {
+        height: 430px;
+    }
+
+
+    .about-wark .main-title {
+        text-align: center;
+    }
+
+    .SUPER-deta p {
+        text-align: center;
+    }
+
+
+
+    .SERVICES-deta {
+        row-gap: 8rem;
+    }
+
+    .SUPER-deta h3 {
+        text-align: center;
+    }
+
+    .main-deta .sub-title {
+        text-align: center;
+    }
+
+    .main-deta .main-title {
+        text-align: center;
+    }
+
+    .BLOG-deta h3 {
+        text-align: left;
+    }
+
+    .BLOG-deta p {
+        text-align: left;
+    }
+
+
+    .Membership-icon {
+        height: 5rem;
+    }
+
+    .productswiper .swiper-button-next::after,
+    .productswiper .swiper-button-prev::after {
+        font-size: 45px;
+    }
+
+    .Arrow {
+        height: 27rem;
+     }
+
+     .about-deta img {
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .about-deta h3 {
+        font-size: 4.4rem;
+    }
+
+    .WHY-img img {
+        height: 13rem;
+    }
+ 
+
+}
+
+
+
+/* 992-1199 lg 1rem=8px */
+@media screen and (min-width: 992px) {
+
+    .about-wark {
+        padding-left: 6rem;
+        text-align: left;
+    }
+
+    .about-img img {
+        border-right: 2px solid white;
+        padding-right: 6rem;
+    }
+
+    .TEAM {
+        padding-left: 0rem;
+    }
+
+    .SUPER-img {
+        margin-left: 8.8rem;
+    }
+
+    .SUPER-img img {
+        width: 100%;
+        height: 26.6rem;
+    }
+
+    .Horoscope-deta {
+        padding: 0;
+    }
+
+    .TEAM-form input {
+        padding: 1rem 2rem 1rem 2rem;
+        text-align: left;
+    }
+
+    .T-form {
+        padding-left: 5.1rem;
+        text-align: left;
+    }
+
+    .Membership-wark {
+        padding: 5.7rem;
+    }
+
+    .Membership-deta {
+        row-gap: 8rem;
+    }
+
+    .OUR-deta::before {
+        width: 11.8rem;
+        height: 10.5rem;
+        bottom: 15rem;
+    }
+
+    .OUR-deta {
+        margin: 0 43rem;
+    }
+
+    #BECOME {
+        height: 410px;
+    }
+
+    #BECOME::before {
+        height: 410px;
+    }
+
+    .BOODOO-deta ul li a i {
+        padding-right: 2rem;
+    }
+
+
+    .about-wark{
+        padding-top: 0;
+    }
+
+    .Membership-deta {
+        padding-top: 10px;
+    }
+
+    .about-wark .sub-title {
+        text-align: left;
+    }
+
+    .about-wark .main-title {
+        text-align: left;
+    }
+
+
+    .SERVICES-deta {
+        row-gap: 9.5rem;
+    }
+
+    .about-img p {
+        text-align: left;
+        max-width: 54.1rem;
+    }
+
+    .SUPER-deta p {
+        max-width: 54.1rem;
+        text-align: left;
+    }
+
+    .SUPER-deta h3 {
+        text-align: left;
+    }
+
+    .SERVICES-deta h2 {
+        font-size: 3.4rem;
+    }
+
+
+    .main-deta .sub-title {
+        text-align: left;
+    }
+
+    .main-deta .main-title {
+        text-align: left;
+    }
+
+    .BLOG-deta h3 {
+        text-align: left;
+    }
+
+    .Membership-icon {
+        height: 5rem;
+    }
+
+    .productswiper .swiper-button-next::after,
+    .productswiper .swiper-button-prev::after {
+        font-size: 45px;
+    }
+
+    .Arrow {
+        height: 30rem;
+     }
+
+     .about-deta img {
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .about-deta h3 {
+        font-size: 4.4rem;
+    }
+
+    .WHY-img img {
+        height: 14rem;
+    }
+ 
+
+}
+
+/* 1200-1399 xl 1rem=9px*/
+@media screen and (min-width: 1200px) {
+
+    html {
+        font-size: 56.25%;
+    }
+
+    .about-deta h3 {
+        font-size: 4rem;
+    }
+
+    .about-img img {
+        border-right: 2px solid white;
+        padding-right: 11.5rem;
+    }
+
+    .about-wark {
+        padding-left: 11.5rem;
+    }
+
+    .TEAM {
+        padding-left: 3rem;
+    }
+
+    .SUPER-img {
+        margin-left: 8.8rem;
+    }
+
+    .Horoscope-deta {
+        padding: 10rem 0;
+    }
+
+    .Membership-deta {
+        row-gap: 11rem;
+    }
+
+    .OUR-deta::before {
+        width: 9.8rem;
+        height: 8.5rem;
+        bottom: 21rem;
+    }
+
+    .OUR-deta {
+        margin: 0 18rem;
+    }
+
+    #BECOME {
+        height: 430px;
+    }
+
+    #BECOME::before {
+        height: 430px;
+    }
+
+    .BOODOO-deta ul li a i {
+        padding-right: 2rem;
+    }
+
+    #about {
+        padding-top: 12rem;
+    }
+
+    .about-details {
+        padding-top: 12rem;
+    }
+
+    #SUPER {
+        padding-top: 12rem;
+    }
+
+    #SERVICES {
+        padding-top:12rem;
+    }
+
+    #WHY{
+        padding-top: 12rem;
+    }
+
+    #Horoscope{
+        padding-top: 12rem;
+    }
+
+    #price{
+        padding-top: 12rem;
+    }
+
+    #Appointment{
+        padding-top: 12rem;
+    }
+
+    #Membership{
+        padding-top: 12rem;
+    }
+
+    #OUR{
+        padding-top: 12rem;
+    }
+
+    #BLOG{
+        padding-top: 12rem;
+    }
+
+    footer{
+        padding-top: 12rem;
+    }
+
+
+
+    .SERVICES-deta {
+        row-gap: 12.5rem;
+    }
+
+    .SERVICES-deta h2 {
+        font-size: 3.4rem;
+    }
+
+    .productswiper .swiper-button-next::after,
+    .productswiper .swiper-button-prev::after {
+        font-size: 50px;
+
+    }
+
+    .Arrow {
+        height: 30rem;
+     }
+
+     .about-deta img {
+        width: 14rem;
+        height: 14rem;
+    }
+
+    .about-deta h3 {
+        font-size: 4.4rem;
+    }
+ 
+    .WHY-img img {
+        height: 14rem;
+    }
+
+
+}
+
+/* 1400-1919 xxl 10px*/
+@media screen and (min-width: 1400px) {
+
+    html {
+        font-size: 62.5%;
+    }
+
+    .about-deta h3 {
+        font-size: 4.3rem;
+    }
+
+    #BECOME {
+        height: 490px;
+    }
+
+    #BECOME::before {
+        height: 490px;
+    }
+
+    .OUR-deta::before {
+        width: 9.8rem;
+        height: 8.5rem;
+        bottom: 18rem;
+    }
+
+    .BOODOO-deta ul li a i {
+        padding-right: 2rem;
+    }
+
+    .SERVICES-deta {
+        row-gap: 10.5rem;
+    }
+
+    .SERVICES-deta h2 {
+        font-size: 3.4rem;
+    }
+
+    .Arrow {
+        height: 30rem;
+     }
+
+     .about-deta img {
+        width: 14rem;
+        height: 14rem;
+    }
+
+    .about-deta h3 {
+        font-size: 4.4rem;
+    }
+
+    .WHY-img img {
+        height: 14rem;
+    }
+ 
+
+
+}
+
+/* 1920-any xxl 10px*/
+@media screen and (min-width: 1920px) {
+
+    .container {
+        max-width: 165rem;
+    }
+
+    .about-deta h3 {
+        font-size: 5.4rem;
+    }
+
+    .Membership-wark {
+        padding: 6.7rem;
+    }
+
+    .OUR-deta::before {
+        bottom: 11rem;
+    }
+
+    #BECOME {
+        height: 490px;
+    }
+
+    #BECOME::before {
+        height: 490px;
+    }
+
+    .BOODOO-deta ul li a i {
+        padding-right: 2rem;
+    }
+
+    #about {
+        padding-top: 20rem;
+    }
+
+    .about-details {
+        padding-top: 20rem;
+    }
+
+    #SUPER {
+        padding-top: 20rem;
+    }
+
+    #SERVICES {
+        padding-top:20rem;
+    }
+
+    #WHY{
+        padding-top: 20rem;
+    }
+
+    #Horoscope{
+        padding-top: 20rem;
+    }
+
+    #price{
+        padding-top: 20rem;
+    }
+
+    #Appointment{
+        padding-top: 20rem;
+    }
+
+    #Membership{
+        padding-top: 20rem;
+    }
+
+    #OUR{
+        padding-top: 20rem;
+    }
+
+    #BLOG{
+        padding-top: 20rem;
+    }
+
+    footer{
+        padding-top: 20rem;
+    }
+
+    .SERVICES-deta {
+        row-gap: 12.5rem;
+    }
+
+    .main-deta .sub-title {
+        text-align: left;
+        max-width: 54.1rem;
+    }
+
+    .SERVICES-deta h2 {
+        font-size: 4.4rem;
+    }
+
+    .productswiper .swiper-button-next::after,
+    .productswiper .swiper-button-prev::after {
+        font-size: 50px;
+    }
+
+    .Arrow {
+       height: 35rem;
+    }
+
+    .about-deta img {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .about-deta h3 {
+        font-size: 5.4rem;
+    }
+
+    .WHY-img img {
+        height: 15rem;
+    }
+
+
+
+}
